@@ -1,0 +1,13 @@
+.app-component-container {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: grid;
+  grid-gap: var(--dl-space-space-oneandhalfunits);
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+}
+@media(max-width: 767px) {
+  .app-component-container {
+    grid-template-columns: 1fr;
+  }
+}
